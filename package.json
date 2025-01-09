@@ -1,0 +1,39 @@
+{
+  "name": "tmp-cpa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.5.2",
+    "@ant-design/pro-components": "^2.6.4",
+    "@plasmicapp/cli": "^0.1.334",
+    "@plasmicapp/react-web": "^0.2.361",
+    "@plasmicpkgs/antd5": "^0.0.261",
+    "@plasmicpkgs/commerce": "^0.0.206",
+    "@plasmicpkgs/lottie-react": "^0.0.199",
+    "@plasmicpkgs/plasmic-basic-components": "^0.0.231",
+    "@plasmicpkgs/plasmic-cms": "^0.0.272",
+    "@plasmicpkgs/plasmic-embed-css": "^0.1.193",
+    "@plasmicpkgs/plasmic-nav": "^0.0.178",
+    "@plasmicpkgs/plasmic-query": "^0.0.227",
+    "@plasmicpkgs/plasmic-rich-components": "^1.0.198",
+    "@plasmicpkgs/react-awesome-reveal": "^3.8.210",
+    "@plasmicpkgs/react-scroll-parallax": "^0.0.215",
+    "next": "14.2.23",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.23",
+    "typescript": "^5"
+  }
+}

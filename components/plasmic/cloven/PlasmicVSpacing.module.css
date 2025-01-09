@@ -1,0 +1,41 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 0em 0px 0px;
+}
+.rootvSpacing_v01252 {
+  padding: 0.125em 0px 0px;
+}
+.rootvSpacing_v0254 {
+  padding: 0.25em 0px 0px;
+}
+.rootvSpacing_v058 {
+  padding: 0.5em 0px 0px;
+}
+.rootvSpacing_v116 {
+  padding: 1em 0px 0px;
+}
+.rootvSpacing_v232 {
+  padding: 2em 0px 0px;
+}
+.rootvSpacing_v348 {
+  padding: 3em 0px 0px;
+}
+.rootvSpacing_v464 {
+  padding: 4em 0px 0px;
+}
+.rootvSpacing_v580 {
+  padding: 5em 0px 0px;
+}
+.rootvSpacing_v696 {
+  padding: 6em 0px 0px;
+}
+.rootvSpacing_v8128 {
+  padding: 8em 0px 0px;
+}
+.rootvSpacing_v12192 {
+  padding: 12em 0px 0px;
+}

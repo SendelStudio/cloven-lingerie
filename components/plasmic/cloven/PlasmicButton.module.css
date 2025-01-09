@@ -1,0 +1,221 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 0px;
+  border-width: 0px;
+  border-style: none;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 8px;
+}
+.rootcolors_gray {
+  background: #8e8e93;
+}
+.rootcolors_white {
+  background: #ffffff;
+}
+.rootcolors_blue {
+  background: #007aff;
+}
+.rootcolors_black {
+  background: #333333;
+}
+.rootcolors_lightGray {
+  background: #f2f2f7;
+}
+.rootcolors_lightGrayOutline {
+  padding: 7px 11px;
+  border: 1px solid #e5e5ea;
+}
+.rootcolors_link {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.rootsize_large {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.rootsize_large > :global(.__wab_flex-container) {
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.rootsize_large > :global(.__wab_flex-container) > *,
+.rootsize_large > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.rootsize_large > :global(.__wab_flex-container) > picture > img,
+.rootsize_large
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+  margin-top: 0px;
+}
+.rootsize_small {
+  padding: 6px 8px;
+}
+.rootsize_narrow {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.rootrounded {
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 9999px;
+}
+.rootstates_active {
+  cursor: pointer;
+  flex-direction: row;
+  background: #eeeeee;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+.rootstates_active > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.rootstates_active > :global(.__wab_flex-container) > *,
+.rootstates_active > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.rootstates_active > :global(.__wab_flex-container) > picture > img,
+.rootstates_active
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+  margin-top: 0px;
+}
+.rootisDisabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.rootcolors_white_showStartIcon {
+  background: none;
+  max-width: none;
+  width: 100%;
+  min-width: 0;
+  border-radius: 0px;
+  padding: 0px;
+}
+.rootcolors_white_showStartIcon > :global(.__wab_flex-container) {
+  min-width: 0;
+}
+.rootsize_large_rounded {
+  padding: 12px 32px;
+}
+.rootsize_large_showEndIcon_rounded {
+  padding: 10px 30px;
+}
+.rootcolors_black_size_large_showEndIcon_rounded {
+  background: #33333300;
+  border-bottom-width: 1px;
+  border-bottom-color: #666666;
+  border-radius: 0px;
+  padding: 0px;
+}
+.root:hover {
+  background: #eeeeee;
+}
+.root:focus {
+  box-shadow: 0px 0px 0px 3px #007aff80;
+  outline: none;
+}
+.rootcolors_gray:hover {
+  background: #98989d;
+}
+.rootcolors_blue:hover {
+  background: #0a84ff;
+}
+.rootcolors_black:hover {
+  background: #222222;
+}
+.rootcolors_link:hover {
+  background: none;
+}
+.freeBox___9ZsjQ {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.freeBoxshowStartIcon___9ZsjQvyr1S {
+  display: flex;
+}
+.freeBoxiconOnly___9ZsjQVgxg {
+  display: flex;
+}
+.freeBoxsize_large___9ZsjQomd45 {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.freeBoxsize_small___9ZsjQpnN9 {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.slotTargetStartIconcolors_gray {
+  color: #ffffff;
+}
+.slotTargetStartIconcolors_blue {
+  color: #ffffff;
+}
+.slotTargetStartIconcolors_black {
+  color: #ffffff;
+}
+.svg__vwrqQ {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.freeBox__efUer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.freeBoxshowEndIcon__efUers3ROe {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.slotTargetEndIconcolors_black {
+  color: #ffffff;
+}
+.slotTargetEndIconcolors_link {
+  color: #007aff;
+}
+.slotTargetEndIconcolors_black_size_large_showEndIcon_rounded {
+  color: #666666;
+}
+.svg__xVajp {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}

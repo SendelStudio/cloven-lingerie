@@ -1,0 +1,93 @@
+.root {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-width: 0;
+  padding: 6px;
+}
+.freeBox__r4MVb {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.freeBox__oKiKp {
+  display: flex;
+  position: relative;
+}
+.slotTargetChildren {
+  font-weight: 700;
+  font-family: var(--token-1WzXcHKzdAlm);
+  font-size: var(--token-oWFJyXByMBgZ);
+  line-height: var(--token-RcrA1gRsyJQR);
+  letter-spacing: 0.1em;
+}
+.slotTargetChildren > *,
+.slotTargetChildren > :global(.__wab_slot) > *,
+.slotTargetChildren > :global(.__wab_slot) > :global(.__wab_slot) > *,
+.slotTargetChildren
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > *,
+.slotTargetChildren > picture > img,
+.slotTargetChildren > :global(.__wab_slot) > picture > img,
+.slotTargetChildren
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > picture
+  > img,
+.slotTargetChildren
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.2s;
+}
+.root:hover .slotTargetChildren {
+  color: var(--token-9pi31EzeYzDy);
+}
+.root:hover .slotTargetChildren > *,
+.root:hover .slotTargetChildren > :global(.__wab_slot) > *,
+.root:hover
+  .slotTargetChildren
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > *,
+.root:hover
+  .slotTargetChildren
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > *,
+.root:hover .slotTargetChildren > picture > img,
+.root:hover .slotTargetChildren > :global(.__wab_slot) > picture > img,
+.root:hover
+  .slotTargetChildren
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > picture
+  > img,
+.root:hover
+  .slotTargetChildren
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  transition-property: all;
+  transition-timing-function: ease-out;
+  transition-duration: 0.2s;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.2s;
+}

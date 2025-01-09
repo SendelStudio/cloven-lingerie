@@ -1,0 +1,124 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  min-width: 48px;
+  min-height: 48px;
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.2s;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - 9px);
+  height: calc(100% + 9px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 9px;
+}
+.root:active {
+  transform: scaleX(0.9) scaleY(0.9) scaleZ(1);
+}
+.barGreen {
+  background: var(--token-9pi31EzeYzDy);
+  transform: none;
+  width: 37px;
+  height: 5px;
+  display: block;
+  transform-origin: top left;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  flex-shrink: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.2s;
+}
+.barGreencloseState {
+  transform: translateX(3px) translateY(28px) translateZ(0px) rotateX(0deg)
+    rotateY(0deg) rotateZ(-45deg);
+}
+.root:hover .barGreen {
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(-5deg);
+}
+.rootcloseState:hover .barGreencloseState {
+  transform: translateX(3px) translateY(27px) translateZ(0px) rotateX(0deg)
+    rotateY(0deg) rotateZ(-40deg);
+}
+.barMid {
+  background: var(--token-KoS6MLyn-vju);
+  transform: none;
+  width: 37px;
+  height: 5px;
+  display: block;
+  transform-origin: top left;
+  position: relative;
+  top: auto;
+  left: auto;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  flex-shrink: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.2s;
+}
+.barMidcloseState {
+  transform: translateX(18px) translateY(0px) translateZ(0px) rotateX(0deg)
+    rotateY(90deg) rotateZ(0deg);
+  transform-style: preserve-3d;
+}
+.barMidcloseState * {
+  transform-style: preserve-3d;
+}
+.root:hover .barMid {
+  opacity: 1;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+}
+.rootcloseState:hover .barMidcloseState {
+  transform: translateX(18px) translateY(0px) translateZ(0px) rotateX(0deg)
+    rotateY(90deg) rotateZ(0deg);
+  transform-style: preserve-3d;
+}
+.rootcloseState:hover .barMidcloseState * {
+  transform-style: preserve-3d;
+}
+.barBot {
+  background: var(--token-KoS6MLyn-vju);
+  transform: none;
+  width: 37px;
+  height: 5px;
+  display: block;
+  transform-origin: top left;
+  position: relative;
+  top: auto;
+  left: auto;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  flex-shrink: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.2s;
+}
+.barBotcloseState {
+  transform: translateX(7px) translateY(-26px) translateZ(0px) rotateX(0deg)
+    rotateY(0deg) rotateZ(45deg);
+}
+.root:hover .barBot {
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(5deg);
+}
+.rootcloseState:hover .barBotcloseState {
+  transform: translateX(6px) translateY(-25px) translateZ(0px) rotateX(0deg)
+    rotateY(0deg) rotateZ(40deg);
+}
