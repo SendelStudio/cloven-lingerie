@@ -1030,30 +1030,35 @@ function PlasmicAccueil__RenderFunc(props: {
               {(
                 hasVariant(globalVariants, "screen", "mobile") ? true : false
               ) ? (
-                <h1
+                <div
                   className={classNames(
                     projectcss.all,
-                    projectcss.h1,
                     projectcss.__wab_text,
-                    sty.h1___7Nprr
+                    sty.text___7Nprr
                   )}
                 >
-                  {"LA LINGERIE COSY, SEXY &"}
-                </h1>
+                  <React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 500 }}
+                    >
+                      {"LA LINGERIE COSY, SEXY &"}
+                    </span>
+                  </React.Fragment>
+                </div>
               ) : null}
               {(
                 hasVariant(globalVariants, "screen", "mobile") ? true : false
               ) ? (
-                <h1
+                <div
                   className={classNames(
                     projectcss.all,
-                    projectcss.h1,
                     projectcss.__wab_text,
-                    sty.h1__qhRzb
+                    sty.text__qhRzb
                   )}
                 >
                   {"Audacieuse"}
-                </h1>
+                </div>
               ) : null}
               <div
                 className={classNames(
